@@ -11,5 +11,6 @@ public class GameContext : MVCSContext
     protected override void mapBindings()
     {
         commandBinder.Bind(ContextEvent.START).To<StartCommand>().Once();
+        //QUE ONDAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
     }
 }
